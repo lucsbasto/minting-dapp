@@ -1,4 +1,5 @@
 import { Header, Hero, Artworks, Footer, Alert } from "./components";
+import Loading from "./components/Loading";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Artworks />
       <Footer />
       <Alert />
+      <Loading />
     </div>
   );
 };
