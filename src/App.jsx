@@ -1,4 +1,4 @@
-import { Header, Hero, Artworks, Footer } from "./components";
+import { Header, Hero, Artworks, Footer, Alert } from "./components";
 
 const App = () => {
   return (
@@ -9,6 +9,7 @@ const App = () => {
       </div>
       <Artworks />
       <Footer />
+      <Alert />
     </div>
   );
 };
